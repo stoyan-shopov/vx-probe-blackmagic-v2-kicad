@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:stm32f103-qfp48
+LIBS:vx-probe-black-magic-v2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -179,8 +180,8 @@ Wire Wire Line
 	4000 4150 3750 4150
 Wire Wire Line
 	4000 4250 3750 4250
-Text Label 3750 4150 0    60   ~ 0
-+3V3
 Text Label 3750 4250 0    60   ~ 0
++3V3
+Text Label 3750 4150 0    60   ~ 0
 GND
 $EndSCHEMATC
