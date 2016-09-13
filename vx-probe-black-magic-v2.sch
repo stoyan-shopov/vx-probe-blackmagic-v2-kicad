@@ -143,6 +143,37 @@ F 3 "" H 2500 5250 50  0000 C CNN
 	1    2500 5250
 	1    0    0    -1  
 $EndComp
+Text Label 3750 4250 0    60   ~ 0
++3V3
+Text Label 3750 4150 0    60   ~ 0
+GND
+Text Label 6100 5900 1    60   ~ 0
+GND
+Text Label 6200 5900 1    60   ~ 0
++3V3
+Text Label 7350 3450 0    60   ~ 0
++3V3
+Text Label 7350 3550 0    60   ~ 0
+GND
+Text Label 3750 3450 0    60   ~ 0
++3V3
+Text Label 5100 2300 1    60   ~ 0
++3V3
+Text Label 5200 2250 1    60   ~ 0
+GND
+Text Notes 1050 6650 0    60   ~ 0
+MCU power decoupling
+$Comp
+L C C?
+U 1 1 57D824DB
+P 1050 7050
+F 0 "C?" H 1075 7150 50  0000 L CNN
+F 1 "100 nF" H 1075 6950 50  0000 L CNN
+F 2 "" H 1088 6900 50  0000 C CNN
+F 3 "" H 1050 7050 50  0000 C CNN
+	1    1050 7050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3300 3850 4000 3850
 Wire Wire Line
@@ -180,8 +211,95 @@ Wire Wire Line
 	4000 4150 3750 4150
 Wire Wire Line
 	4000 4250 3750 4250
-Text Label 3750 4250 0    60   ~ 0
-+3V3
-Text Label 3750 4150 0    60   ~ 0
-GND
+Wire Wire Line
+	6100 5650 6100 5900
+Wire Wire Line
+	6200 5650 6200 5900
+Wire Wire Line
+	7300 3550 7550 3550
+Wire Wire Line
+	7300 3450 7550 3450
+Wire Wire Line
+	4000 3450 3750 3450
+Wire Wire Line
+	5100 2350 5100 2150
+Wire Wire Line
+	5200 2350 5200 2150
+$Comp
+L C C?
+U 1 1 57D82678
+P 1400 7050
+F 0 "C?" H 1425 7150 50  0000 L CNN
+F 1 "100 nF" H 1425 6950 50  0000 L CNN
+F 2 "" H 1438 6900 50  0000 C CNN
+F 3 "" H 1400 7050 50  0000 C CNN
+	1    1400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57D826A2
+P 1700 7050
+F 0 "C?" H 1725 7150 50  0000 L CNN
+F 1 "100 nF" H 1725 6950 50  0000 L CNN
+F 2 "" H 1738 6900 50  0000 C CNN
+F 3 "" H 1700 7050 50  0000 C CNN
+	1    1700 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57D826A8
+P 2050 7050
+F 0 "C?" H 2075 7150 50  0000 L CNN
+F 1 "100 nF" H 2075 6950 50  0000 L CNN
+F 2 "" H 2088 6900 50  0000 C CNN
+F 3 "" H 2050 7050 50  0000 C CNN
+	1    2050 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 6900 2050 6900
+Connection ~ 1400 6900
+Connection ~ 1700 6900
+Wire Wire Line
+	1050 7200 2050 7200
+Connection ~ 1700 7200
+Connection ~ 1400 7200
+Wire Wire Line
+	1550 6900 1550 6850
+Connection ~ 1550 6900
+$Comp
+L +3V3 #PWR?
+U 1 1 57D827E5
+P 1550 6850
+F 0 "#PWR?" H 1550 6700 50  0001 C CNN
+F 1 "+3V3" H 1550 6990 50  0000 C CNN
+F 2 "" H 1550 6850 50  0000 C CNN
+F 3 "" H 1550 6850 50  0000 C CNN
+	1    1550 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 7200 1550 7250
+Connection ~ 1550 7200
+$Comp
+L GND #PWR?
+U 1 1 57D82853
+P 1550 7250
+F 0 "#PWR?" H 1550 7000 50  0001 C CNN
+F 1 "GND" H 1550 7100 50  0000 C CNN
+F 2 "" H 1550 7250 50  0000 C CNN
+F 3 "" H 1550 7250 50  0000 C CNN
+	1    1550 7250
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	850  6450 850  7500
+Wire Notes Line
+	850  7500 2400 7500
+Wire Notes Line
+	2400 7500 2400 6450
+Wire Notes Line
+	2400 6450 850  6450
 $EndSCHEMATC
