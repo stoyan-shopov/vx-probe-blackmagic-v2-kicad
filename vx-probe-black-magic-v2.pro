@@ -1,4 +1,4 @@
-update=13-Sep-16 16:13:37
+update=13-Sep-16 16:21:12
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=X:/vx-probe-black-magic-v2
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=X:/vx-probe-black-magic-v2/stm32f103-qfp48
