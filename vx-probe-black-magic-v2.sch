@@ -503,9 +503,9 @@ Wire Notes Line
 Wire Notes Line
 	2350 600  2350 2250
 Wire Notes Line
-	750  2250 2350 2250
+	2350 2250 750  2250
 Wire Notes Line
-	750  600  750  2250
+	750  2250 750  600 
 Wire Wire Line
 	10800 1150 10450 1150
 Wire Wire Line
@@ -753,4 +753,55 @@ F 3 "" H 1800 800 50  0000 C CNN
 	1    1800 800 
 	1    0    0    -1  
 $EndComp
+Text Label 2700 4850 0    60   ~ 0
+PROG_NRST
+Wire Wire Line
+	7300 3650 7700 3650
+Text Label 7350 3650 0    60   ~ 0
+PROG_SWDIO
+Wire Wire Line
+	6200 2350 6200 2150
+Text Label 6200 2250 1    60   ~ 0
+PROG_SWCLK
+$Comp
+L CONN_01X05 P?
+U 1 1 57D8BC7C
+P 10550 4000
+F 0 "P?" H 10550 4300 50  0000 C CNN
+F 1 "CONN_01X05" V 10650 4000 50  0000 C CNN
+F 2 "" H 10550 4000 50  0000 C CNN
+F 3 "" H 10550 4000 50  0000 C CNN
+	1    10550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 3800 10350 3800
+Wire Wire Line
+	9800 3900 10350 3900
+Wire Wire Line
+	9800 4000 10350 4000
+Wire Wire Line
+	9800 4100 10350 4100
+Wire Wire Line
+	9800 4200 10350 4200
+Text Label 9800 3800 0    60   ~ 0
+5V_EXT
+Text Label 9800 3900 0    60   ~ 0
+GND
+Text Label 9800 4000 0    60   ~ 0
+PROG_SWCLK
+Text Label 9800 4100 0    60   ~ 0
+PROG_SWDIO
+Text Label 9800 4200 0    60   ~ 0
+PROG_NRST
+Text Notes 9850 3600 0    60   ~ 0
+debug/programming\nserial wire header
+Wire Notes Line
+	9650 3400 10800 3400
+Wire Notes Line
+	10800 3400 10800 4400
+Wire Notes Line
+	10800 4400 9650 4400
+Wire Notes Line
+	9650 4400 9650 3400
 $EndSCHEMATC
