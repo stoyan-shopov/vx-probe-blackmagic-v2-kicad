@@ -1006,4 +1006,114 @@ Connection ~ 8950 2750
 Wire Wire Line
 	10650 2700 10650 2750
 Connection ~ 10650 2750
+$Comp
+L CONN_02X05 P6
+U 1 1 57D9507B
+P 5400 6900
+F 0 "P6" H 5400 7200 50  0000 C CNN
+F 1 "swdio/jtag" H 5400 7350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 5400 5700 50  0001 C CNN
+F 3 "" H 5400 5700 50  0000 C CNN
+	1    5400 6900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6700 5950 6700
+Wire Wire Line
+	5650 7100 6050 7100
+Wire Wire Line
+	5650 6800 6050 6800
+Wire Wire Line
+	4650 6700 5150 6700
+Text Label 5650 6700 0    60   ~ 0
+TPWR
+Wire Wire Line
+	6050 6800 6050 7300
+Connection ~ 6050 7100
+$Comp
+L GND #PWR020
+U 1 1 57D95865
+P 6050 7300
+F 0 "#PWR020" H 6050 7050 50  0001 C CNN
+F 1 "GND" H 6050 7150 50  0000 C CNN
+F 2 "" H 6050 7300 50  0000 C CNN
+F 3 "" H 6050 7300 50  0000 C CNN
+	1    6050 7300
+	1    0    0    -1  
+$EndComp
+Text Label 4650 6700 0    60   ~ 0
+SWDIO/TMS
+Wire Wire Line
+	4650 6800 5150 6800
+Wire Wire Line
+	4650 6900 5150 6900
+Wire Wire Line
+	4650 7000 5150 7000
+Wire Wire Line
+	4650 7100 5150 7100
+Text Label 4650 6800 0    60   ~ 0
+SWCLK/TCK
+Text Label 4650 6900 0    60   ~ 0
+SWO/TDO
+Text Label 4650 7000 0    60   ~ 0
+TDI
+Text Label 4650 7100 0    60   ~ 0
+XRST
+Wire Wire Line
+	5650 6900 6050 6900
+Connection ~ 6050 6900
+Text Notes 5100 7400 0    60   ~ 0
+Note: cut pin 7\nfor key
+$Comp
+L Q_PMOS_GSD Q1
+U 1 1 57D96C39
+P 7450 6700
+F 0 "Q1" H 7750 6750 50  0000 R CNN
+F 1 "Q_PMOS_GSD" H 8100 6650 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7650 6800 50  0001 C CNN
+F 3 "" H 7450 6700 50  0000 C CNN
+	1    7450 6700
+	1    0    0    1   
+$EndComp
+$Comp
+L +3V3 #PWR021
+U 1 1 57D96D1E
+P 7550 6400
+F 0 "#PWR021" H 7550 6250 50  0001 C CNN
+F 1 "+3V3" H 7550 6540 50  0000 C CNN
+F 2 "" H 7550 6400 50  0000 C CNN
+F 3 "" H 7550 6400 50  0000 C CNN
+	1    7550 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 6400 7550 6500
+Wire Wire Line
+	7550 6900 7550 7050
+Text Label 7550 7000 0    60   ~ 0
+TPWR
+Wire Wire Line
+	6850 6700 7250 6700
+Text Label 6850 6700 0    60   ~ 0
+TPWR_CTRL
+Wire Wire Line
+	6000 6150 6000 5650
+Text Label 6000 6150 1    60   ~ 0
+SWDIO/TMS
+Wire Wire Line
+	5900 6150 5900 5650
+Wire Wire Line
+	5800 6150 5800 5650
+Wire Wire Line
+	5700 6150 5700 5650
+Wire Wire Line
+	5600 6150 5600 5650
+Text Label 5900 6150 1    60   ~ 0
+SWCLK/TCK
+Text Label 5800 6150 1    60   ~ 0
+SWO/TDO
+Text Label 5700 6150 1    60   ~ 0
+TDI
+Text Label 5600 6150 1    60   ~ 0
+XRST
 $EndSCHEMATC
