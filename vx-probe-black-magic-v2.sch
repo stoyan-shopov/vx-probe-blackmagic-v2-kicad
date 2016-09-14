@@ -533,17 +533,6 @@ F 3 "" H 1800 950 50  0000 C CNN
 	1    1800 950 
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3V3 #PWR015
-U 1 1 57D89E25
-P 1800 800
-F 0 "#PWR015" H 1800 650 50  0001 C CNN
-F 1 "+3V3" H 1800 940 50  0000 C CNN
-F 2 "" H 1800 800 50  0000 C CNN
-F 3 "" H 1800 800 50  0000 C CNN
-	1    1800 800 
-	1    0    0    -1  
-$EndComp
 Text Label 2700 4850 0    60   ~ 0
 PROG_NRST
 Text Label 7350 3650 0    60   ~ 0
@@ -689,11 +678,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 5200 2500 5250
 Wire Wire Line
-	4000 4050 3500 4050
-Wire Wire Line
-	3500 4050 3500 4850
-Wire Wire Line
-	3500 4850 2500 4850
+	3400 4050 4000 4050
 Wire Wire Line
 	3300 3750 3300 3850
 Wire Wire Line
@@ -1097,23 +1082,37 @@ Wire Wire Line
 Text Label 6850 6700 0    60   ~ 0
 TPWR_CTRL
 Wire Wire Line
-	6000 6150 6000 5650
-Text Label 6000 6150 1    60   ~ 0
+	5600 6150 5600 5650
+Text Label 5600 6150 1    60   ~ 0
 SWDIO/TMS
-Wire Wire Line
-	5900 6150 5900 5650
-Wire Wire Line
-	5800 6150 5800 5650
 Wire Wire Line
 	5700 6150 5700 5650
 Wire Wire Line
-	5600 6150 5600 5650
-Text Label 5900 6150 1    60   ~ 0
-SWCLK/TCK
-Text Label 5800 6150 1    60   ~ 0
-SWO/TDO
+	5800 5650 5800 6150
+Wire Wire Line
+	5900 6150 5900 5650
+Wire Wire Line
+	6000 6150 6000 5650
 Text Label 5700 6150 1    60   ~ 0
+SWCLK/TCK
+Text Label 5800 5750 3    60   ~ 0
+SWO/TDO
+Text Label 5900 6150 1    60   ~ 0
 TDI
-Text Label 5600 6150 1    60   ~ 0
+Text Label 6000 6150 1    60   ~ 0
 XRST
+Wire Wire Line
+	2500 4850 3400 4850
+Wire Wire Line
+	3400 4850 3400 4050
+Wire Wire Line
+	1800 800  1800 750 
+Wire Wire Line
+	1800 750  2150 750 
+Text Label 1800 750  0    60   ~ 0
+USB_CONNECT
+Wire Wire Line
+	7300 4150 7700 4150
+Text Label 7350 4150 0    60   ~ 0
+USB_CONNECT
 $EndSCHEMATC
