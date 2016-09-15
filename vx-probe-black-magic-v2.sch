@@ -359,8 +359,6 @@ F 3 "" H 9800 1550 50  0000 C CNN
 $EndComp
 Text Label 9100 2650 0    60   ~ 0
 UEXT_TXD
-Text Label 9100 2550 0    60   ~ 0
-TPWR
 Text Label 9100 2750 0    60   ~ 0
 UEXT_SCL
 Text Label 9100 2850 0    60   ~ 0
@@ -937,8 +935,6 @@ Wire Wire Line
 	5650 6800 6050 6800
 Wire Wire Line
 	4650 6700 5150 6700
-Text Label 5650 6700 0    60   ~ 0
-TPWR
 Wire Wire Line
 	6050 6800 6050 7300
 Connection ~ 6050 7100
@@ -1002,8 +998,6 @@ Wire Wire Line
 	7550 6400 7550 6500
 Wire Wire Line
 	7550 6900 7550 7050
-Text Label 7550 7000 0    60   ~ 0
-TPWR
 Wire Wire Line
 	6850 6700 7250 6700
 Text Label 6850 6700 0    60   ~ 0
@@ -1101,4 +1095,103 @@ F 3 "" H 1350 5250 50  0000 C CNN
 	1    1350 5250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4000 3550 3750 3550
+Wire Wire Line
+	4000 3650 3750 3650
+Wire Wire Line
+	4000 3750 3750 3750
+Wire Wire Line
+	4000 4350 3750 4350
+Wire Wire Line
+	4000 4450 3750 4450
+Wire Wire Line
+	4000 4550 3750 4550
+Wire Wire Line
+	5300 5650 5300 5900
+Wire Wire Line
+	5400 5650 5400 5900
+Wire Wire Line
+	5500 5650 5500 5900
+Wire Wire Line
+	5100 5650 5100 5900
+Wire Wire Line
+	5200 5650 5200 5900
+Text Label 1250 4200 0    60   ~ 0
+x1
+Text Label 3750 3550 0    60   ~ 0
+x1
+$Comp
+L CONN_01X11 P11
+U 1 1 57DB0B9D
+P 1000 3700
+F 0 "P11" H 1000 4300 50  0000 C CNN
+F 1 "CONN_01X11" V 1100 3700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x11" H 1000 3700 50  0001 C CNN
+F 3 "" H 1000 3700 50  0000 C CNN
+	1    1000 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1200 4200 1400 4200
+Wire Wire Line
+	1200 4100 1400 4100
+Wire Wire Line
+	1200 4000 1400 4000
+Wire Wire Line
+	1200 3900 1400 3900
+Wire Wire Line
+	1200 3800 1400 3800
+Wire Wire Line
+	1200 3700 1400 3700
+Wire Wire Line
+	1200 3600 1400 3600
+Wire Wire Line
+	1200 3500 1400 3500
+Wire Wire Line
+	1200 3400 1400 3400
+Wire Wire Line
+	1200 3300 1400 3300
+Wire Wire Line
+	1200 3200 1400 3200
+Text Label 3750 3650 0    60   ~ 0
+x2
+Text Label 1250 4100 0    60   ~ 0
+x2
+Text Label 1250 4000 0    60   ~ 0
+x3
+Text Label 3750 3750 0    60   ~ 0
+x3
+Text Label 1250 3900 0    60   ~ 0
+x4
+Text Label 3750 4350 0    60   ~ 0
+x4
+Text Label 3750 4450 0    60   ~ 0
+x5
+Text Label 1250 3800 0    60   ~ 0
+x5
+Text Label 1250 3700 0    60   ~ 0
+x6
+Text Label 3750 4550 0    60   ~ 0
+x6
+Text Label 5100 5900 1    60   ~ 0
+x7
+Text Label 1250 3600 0    60   ~ 0
+x7
+Text Label 1250 3500 0    60   ~ 0
+x8
+Text Label 5200 5900 1    60   ~ 0
+x8
+Text Label 1250 3400 0    60   ~ 0
+x9
+Text Label 5300 5900 1    60   ~ 0
+x9
+Text Label 1250 3300 0    60   ~ 0
+x10
+Text Label 5400 5900 1    60   ~ 0
+x10
+Text Label 1250 3200 0    60   ~ 0
+x11
+Text Label 5500 5900 1    60   ~ 0
+x11
 $EndSCHEMATC
