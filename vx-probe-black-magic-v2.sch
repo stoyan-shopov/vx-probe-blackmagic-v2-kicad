@@ -352,7 +352,7 @@ U 1 1 57D86033
 P 9800 2750
 F 0 "P4" H 9800 3050 50  0000 C CNN
 F 1 "CONN_02X05" H 9800 2450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 9800 1550 50  0001 C CNN
+F 2 "Connect:IDC_Header_Straight_10pins" H 9800 1550 50  0001 C CNN
 F 3 "" H 9800 1550 50  0000 C CNN
 	1    9800 2750
 	1    0    0    -1  
@@ -922,7 +922,7 @@ U 1 1 57D9507B
 P 5400 6900
 F 0 "P6" H 5400 7200 50  0000 C CNN
 F 1 "swdio/jtag" H 5400 7350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05" H 5400 5700 50  0001 C CNN
+F 2 "Connect:IDC_Header_Straight_10pins" H 5400 5700 50  0001 C CNN
 F 3 "" H 5400 5700 50  0000 C CNN
 	1    5400 6900
 	-1   0    0    -1  
