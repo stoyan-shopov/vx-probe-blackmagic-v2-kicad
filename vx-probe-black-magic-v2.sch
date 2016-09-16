@@ -1297,4 +1297,10 @@ Text Label 7850 5600 0    60   ~ 0
 5V_USB
 Text Label 5900 6150 1    60   ~ 0
 VUSB
+Text Label 1400 3200 0    60   ~ 0
+TPWR
+Text Label 6000 6150 1    60   ~ 0
+x8
+Text Label 1400 3400 0    60   ~ 0
+x8
 $EndSCHEMATC
