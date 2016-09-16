@@ -1117,7 +1117,7 @@ Wire Wire Line
 	5100 5650 5100 5900
 Wire Wire Line
 	5200 5650 5200 5900
-Text Label 1250 4200 0    60   ~ 0
+Text Label 1400 4200 0    60   ~ 0
 x1
 Text Label 3750 3550 0    60   ~ 0
 x1
@@ -1156,41 +1156,41 @@ Wire Wire Line
 	1200 3200 1400 3200
 Text Label 3750 3650 0    60   ~ 0
 x2
-Text Label 1250 4100 0    60   ~ 0
+Text Label 1400 4100 0    60   ~ 0
 x2
-Text Label 1250 4000 0    60   ~ 0
+Text Label 1400 4000 0    60   ~ 0
 x3
 Text Label 3750 3750 0    60   ~ 0
 x3
-Text Label 1250 3900 0    60   ~ 0
+Text Label 1400 3900 0    60   ~ 0
 x4
 Text Label 3750 4350 0    60   ~ 0
 x4
 Text Label 5400 5900 1    60   ~ 0
 x5
-Text Label 1250 3800 0    60   ~ 0
+Text Label 1400 3800 0    60   ~ 0
 x5
-Text Label 1250 3700 0    60   ~ 0
+Text Label 1400 3700 0    60   ~ 0
 x6
 Text Label 5500 5900 1    60   ~ 0
 x6
 Text Label 5600 6150 1    60   ~ 0
 x7
-Text Label 1250 3600 0    60   ~ 0
+Text Label 1400 3500 0    60   ~ 0
 x7
-Text Label 1250 3500 0    60   ~ 0
+Text Label 1400 3400 0    60   ~ 0
 x8
 Text Label 5700 6150 1    60   ~ 0
 x8
-Text Label 1250 3400 0    60   ~ 0
+Text Label 1400 3300 0    60   ~ 0
 x9
 Text Label 5800 6150 1    60   ~ 0
 x9
-Text Label 1250 3300 0    60   ~ 0
+Text Label 1400 3600 0    60   ~ 0
 x10
 Text Label 5900 6150 1    60   ~ 0
 x10
-Text Label 1250 3200 0    60   ~ 0
+Text Label 1400 3200 0    60   ~ 0
 x11
 Text Label 6000 6150 1    60   ~ 0
 x11
