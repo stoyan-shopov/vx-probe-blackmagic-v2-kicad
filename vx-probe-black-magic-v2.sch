@@ -1156,27 +1156,27 @@ Wire Wire Line
 	1200 3200 1400 3200
 Text Label 3750 3650 0    60   ~ 0
 x2
-Text Label 1400 3600 0    60   ~ 0
+Text Label 1400 4100 0    60   ~ 0
 x2
 Text Label 1400 3500 0    60   ~ 0
 x3
 Text Label 3750 3750 0    60   ~ 0
 x3
-Text Label 1400 4100 0    60   ~ 0
+Text Label 1400 3900 0    60   ~ 0
 x4
 Text Label 3750 4350 0    60   ~ 0
 x4
 Text Label 5400 5900 1    60   ~ 0
 x5
-Text Label 1400 4000 0    60   ~ 0
+Text Label 1400 3800 0    60   ~ 0
 x5
-Text Label 1400 3900 0    60   ~ 0
+Text Label 1400 3700 0    60   ~ 0
 x6
 Text Label 5500 5900 1    60   ~ 0
 x6
 Text Label 5600 6150 1    60   ~ 0
 x7
-Text Label 1400 3700 0    60   ~ 0
+Text Label 1400 3600 0    60   ~ 0
 x7
 $Comp
 L R R6
