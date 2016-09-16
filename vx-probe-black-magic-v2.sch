@@ -1246,4 +1246,8 @@ Text Label 5700 6150 1    60   ~ 0
 TPWR_IN
 Text Label 5800 6150 1    60   ~ 0
 TPWR_CTRL
+Text Label 9100 2550 0    60   ~ 0
+TPWR
+Text Label 5950 6700 0    60   ~ 0
+TPWR
 $EndSCHEMATC
