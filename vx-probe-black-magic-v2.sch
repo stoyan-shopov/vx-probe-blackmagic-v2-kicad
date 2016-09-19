@@ -1120,38 +1120,30 @@ BTN2
 Text Label 3750 3550 0    60   ~ 0
 BTN2
 Wire Wire Line
-	1200 4000 1400 4000
+	1100 3900 1300 3900
 Wire Wire Line
-	1200 3900 1400 3900
+	1100 3800 1300 3800
 Wire Wire Line
-	1200 3800 1400 3800
+	1100 3700 1300 3700
 Wire Wire Line
-	1200 3700 1400 3700
+	1100 3600 1300 3600
 Wire Wire Line
-	1200 3600 1400 3600
-Wire Wire Line
-	1200 3500 1400 3500
-Wire Wire Line
-	1200 3400 1400 3400
-Text Label 1400 3600 0    60   ~ 0
-x2
-Text Label 1400 3500 0    60   ~ 0
-x3
-Text Label 1400 4000 0    60   ~ 0
+	1100 3500 1300 3500
+Text Label 1100 3600 2    60   ~ 0
 x4
 Text Label 3750 4350 0    60   ~ 0
 x4
 Text Label 5400 5900 1    60   ~ 0
 x5
-Text Label 1400 3900 0    60   ~ 0
+Text Label 1100 3700 2    60   ~ 0
 x5
-Text Label 1400 3800 0    60   ~ 0
+Text Label 1100 3800 2    60   ~ 0
 x6
 Text Label 5500 5900 1    60   ~ 0
 x6
 Text Label 5600 6150 1    60   ~ 0
 x7
-Text Label 1400 3700 0    60   ~ 0
+Text Label 1100 3900 2    60   ~ 0
 x7
 $Comp
 L R R6
@@ -1272,7 +1264,7 @@ Text Label 7850 5600 0    60   ~ 0
 5V_USB
 Text Label 5900 6150 1    60   ~ 0
 VUSB
-Text Label 1400 3300 0    60   ~ 0
+Text Label 1100 3400 2    60   ~ 0
 TPWR
 Text Label 6000 6150 1    60   ~ 0
 BTN1
@@ -1460,24 +1452,13 @@ F 3 "" H 6350 650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1200 3300 1400 3300
-Text Label 1400 3400 0    60   ~ 0
+	1100 3400 1300 3400
+Text Label 1100 3500 2    60   ~ 0
 +3V3
 Wire Wire Line
-	1200 3200 1400 3200
-Text Label 1400 3200 0    60   ~ 0
+	1100 3300 1300 3300
+Text Label 1100 3300 2    60   ~ 0
 GND
-$Comp
-L CONN_01X09 P11
-U 1 1 57DFBED3
-P 1000 3600
-F 0 "P11" H 1000 4100 50  0000 C CNN
-F 1 "CONN_01X09" V 1100 3600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x09" H 1000 3600 50  0001 C CNN
-F 3 "" H 1000 3600 50  0000 C CNN
-	1    1000 3600
-	-1   0    0    1   
-$EndComp
 Text Label 3750 3650 2    60   ~ 0
 LED1
 Text Label 3750 3750 2    60   ~ 0
@@ -1568,4 +1549,15 @@ Text Label 6950 1550 2    60   ~ 0
 LED1
 Text Label 7350 1550 2    60   ~ 0
 LED2
+$Comp
+L CONN_01X07 P11
+U 1 1 57E03A02
+P 1500 3600
+F 0 "P11" H 1500 4000 50  0000 C CNN
+F 1 "CONN_01X07" V 1600 3600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07" H 1500 3600 50  0001 C CNN
+F 3 "" H 1500 3600 50  0000 C CNN
+	1    1500 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
