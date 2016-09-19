@@ -1119,21 +1119,6 @@ Text Label 5550 1050 2    60   ~ 0
 BTN2
 Text Label 3750 3550 0    60   ~ 0
 BTN2
-$Comp
-L CONN_01X11 P11
-U 1 1 57DB0B9D
-P 1000 3700
-F 0 "P11" H 1000 4300 50  0000 C CNN
-F 1 "CONN_01X11" V 1100 3700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x11" H 1000 3700 50  0001 C CNN
-F 3 "" H 1000 3700 50  0000 C CNN
-	1    1000 3700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1200 4200 1400 4200
-Wire Wire Line
-	1200 4100 1400 4100
 Wire Wire Line
 	1200 4000 1400 4000
 Wire Wire Line
@@ -1148,33 +1133,29 @@ Wire Wire Line
 	1200 3500 1400 3500
 Wire Wire Line
 	1200 3400 1400 3400
-Wire Wire Line
-	1200 3300 1400 3300
-Wire Wire Line
-	1200 3200 1400 3200
 Text Label 3750 3650 0    60   ~ 0
 x2
-Text Label 1400 4100 0    60   ~ 0
+Text Label 1400 3600 0    60   ~ 0
 x2
 Text Label 1400 3500 0    60   ~ 0
 x3
 Text Label 3750 3750 0    60   ~ 0
 x3
-Text Label 1400 3900 0    60   ~ 0
+Text Label 1400 4000 0    60   ~ 0
 x4
 Text Label 3750 4350 0    60   ~ 0
 x4
 Text Label 5400 5900 1    60   ~ 0
 x5
-Text Label 1400 3800 0    60   ~ 0
+Text Label 1400 3900 0    60   ~ 0
 x5
-Text Label 1400 3700 0    60   ~ 0
+Text Label 1400 3800 0    60   ~ 0
 x6
 Text Label 5500 5900 1    60   ~ 0
 x6
 Text Label 5600 6150 1    60   ~ 0
 x7
-Text Label 1400 3600 0    60   ~ 0
+Text Label 1400 3700 0    60   ~ 0
 x7
 $Comp
 L R R6
@@ -1295,7 +1276,7 @@ Text Label 7850 5600 0    60   ~ 0
 5V_USB
 Text Label 5900 6150 1    60   ~ 0
 VUSB
-Text Label 1400 3200 0    60   ~ 0
+Text Label 1400 3400 0    60   ~ 0
 TPWR
 Text Label 6000 6150 1    60   ~ 0
 BTN1
@@ -1481,5 +1462,24 @@ F 2 "" H 6350 650 50  0000 C CNN
 F 3 "" H 6350 650 50  0000 C CNN
 	1    6350 650 
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 3300 1400 3300
+Text Label 1400 3300 0    60   ~ 0
++3V3
+Wire Wire Line
+	1200 3200 1400 3200
+Text Label 1400 3200 0    60   ~ 0
+GND
+$Comp
+L CONN_01X09 P11
+U 1 1 57DFBED3
+P 1000 3600
+F 0 "P11" H 1000 4100 50  0000 C CNN
+F 1 "CONN_01X09" V 1100 3600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x09" H 1000 3600 50  0001 C CNN
+F 3 "" H 1000 3600 50  0000 C CNN
+	1    1000 3600
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
