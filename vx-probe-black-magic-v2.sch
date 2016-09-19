@@ -1086,16 +1086,6 @@ $EndComp
 Wire Wire Line
 	4000 3550 3750 3550
 Wire Wire Line
-	4000 3650 3750 3650
-Wire Wire Line
-	4000 3750 3750 3750
-Wire Wire Line
-	4000 4350 3750 4350
-Wire Wire Line
-	4000 4450 3750 4450
-Wire Wire Line
-	4000 4550 3750 4550
-Wire Wire Line
 	5300 5650 5300 5900
 Wire Wire Line
 	5400 5650 5400 5900
@@ -1121,15 +1111,15 @@ Wire Wire Line
 	1100 3500 1300 3500
 Text Label 1100 3800 2    60   ~ 0
 x1
-Text Label 3750 4350 0    60   ~ 0
+Text Label 3900 4350 2    60   ~ 0
 x1
-Text Label 3750 4450 2    60   ~ 0
+Text Label 3900 4450 2    60   ~ 0
 x2
 Text Label 1100 3900 2    60   ~ 0
 x2
 Text Label 1100 3700 2    60   ~ 0
 x3
-Text Label 3750 4550 2    60   ~ 0
+Text Label 3900 4550 2    60   ~ 0
 x3
 Text Label 5200 5900 3    60   ~ 0
 x4
@@ -1252,11 +1242,11 @@ Wire Wire Line
 	7700 5600 7850 5600
 Text Label 7850 5600 0    60   ~ 0
 5V_USB
-Text Label 3750 3750 2    60   ~ 0
+Text Label 3900 3750 2    60   ~ 0
 VUSB
 Text Label 1100 3400 2    60   ~ 0
 TPWR
-Text Label 3750 3650 2    60   ~ 0
+Text Label 3900 3650 2    60   ~ 0
 BTN1
 $Comp
 L SW_PUSH SW1
@@ -1758,4 +1748,35 @@ F 3 "" H 150 4300 50  0000 C CNN
 	1    150  4300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4000 3650 3900 3650
+Wire Wire Line
+	4000 3750 3900 3750
+Wire Wire Line
+	4000 4350 3900 4350
+Wire Wire Line
+	4000 4450 3900 4450
+Wire Wire Line
+	4000 4550 3900 4550
+Wire Wire Line
+	12650 5850 13100 5850
+Wire Wire Line
+	13100 5850 13100 5350
+Wire Wire Line
+	13100 5350 13050 5350
+Connection ~ 12650 5850
+$Comp
+L CONN_01X02 P14
+U 1 1 57E034F3
+P 13000 5150
+F 0 "P14" V 13000 5000 50  0000 C CNN
+F 1 "TPWR_BYPASS" V 13100 5150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 13000 5150 50  0001 C CNN
+F 3 "" H 13000 5150 50  0000 C CNN
+	1    13000 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12950 5350 12650 5350
+Connection ~ 12650 5350
 $EndSCHEMATC
