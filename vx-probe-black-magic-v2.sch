@@ -1276,7 +1276,7 @@ Text Label 7850 5600 0    60   ~ 0
 5V_USB
 Text Label 5900 6150 1    60   ~ 0
 VUSB
-Text Label 1400 3400 0    60   ~ 0
+Text Label 1400 3300 0    60   ~ 0
 TPWR
 Text Label 6000 6150 1    60   ~ 0
 BTN1
@@ -1465,7 +1465,7 @@ F 3 "" H 6350 650 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	1200 3300 1400 3300
-Text Label 1400 3300 0    60   ~ 0
+Text Label 1400 3400 0    60   ~ 0
 +3V3
 Wire Wire Line
 	1200 3200 1400 3200
