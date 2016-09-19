@@ -1449,9 +1449,9 @@ Wire Wire Line
 	1100 3300 1300 3300
 Text Label 1100 3300 2    60   ~ 0
 GND
-Text Label 5900 5750 3    60   ~ 0
+Text Label 6900 5700 3    60   ~ 0
 LED1
-Text Label 5800 5750 3    60   ~ 0
+Text Label 6750 5700 3    60   ~ 0
 LED2
 $Comp
 L R R15
