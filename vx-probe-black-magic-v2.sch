@@ -1130,21 +1130,21 @@ Wire Wire Line
 Wire Wire Line
 	1100 3500 1300 3500
 Text Label 1100 3600 2    60   ~ 0
-x4
+x1
 Text Label 3750 4350 0    60   ~ 0
-x4
+x1
 Text Label 5400 5900 1    60   ~ 0
-x5
+x2
 Text Label 1100 3700 2    60   ~ 0
-x5
+x2
 Text Label 1100 3800 2    60   ~ 0
-x6
+x3
 Text Label 5500 5900 1    60   ~ 0
-x6
+x3
 Text Label 5600 6150 1    60   ~ 0
-x7
+x4
 Text Label 1100 3900 2    60   ~ 0
-x7
+x4
 $Comp
 L R R6
 U 1 1 57DC066B
