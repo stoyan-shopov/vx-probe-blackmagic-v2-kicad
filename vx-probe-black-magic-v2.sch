@@ -1000,15 +1000,15 @@ Wire Wire Line
 	12650 5800 12650 5950
 Text Label 12150 5600 2    60   ~ 0
 TPWR_CTRL
-Text Label 3750 4450 2    60   ~ 0
+Text Label 5300 5900 3    60   ~ 0
 SWDIO/TMS
-Text Label 3750 4550 2    60   ~ 0
+Text Label 5400 5900 3    60   ~ 0
 SWCLK/TCK
 Text Label 5100 5900 1    60   ~ 0
 SWO/TDO
-Text Label 5200 5900 1    60   ~ 0
+Text Label 5600 5750 1    60   ~ 0
 TDI
-Text Label 5300 5900 1    60   ~ 0
+Text Label 5500 5900 1    60   ~ 0
 XRST
 Wire Wire Line
 	2500 4850 3400 4850
@@ -1123,15 +1123,15 @@ Text Label 1100 3600 2    60   ~ 0
 x1
 Text Label 3750 4350 0    60   ~ 0
 x1
-Text Label 5400 5900 1    60   ~ 0
+Text Label 3750 4450 2    60   ~ 0
 x2
 Text Label 1100 3700 2    60   ~ 0
 x2
 Text Label 1100 3800 2    60   ~ 0
 x3
-Text Label 5500 5900 1    60   ~ 0
+Text Label 3750 4550 2    60   ~ 0
 x3
-Text Label 5600 5750 3    60   ~ 0
+Text Label 5200 5900 3    60   ~ 0
 x4
 Text Label 1100 3900 2    60   ~ 0
 x4
@@ -1199,7 +1199,7 @@ Text Label 13250 5900 0    60   ~ 0
 TPWR
 Text Label 12800 6300 0    60   ~ 0
 TPWR_IN
-Text Label 5900 5750 3    60   ~ 0
+Text Label 5700 5750 3    60   ~ 0
 TPWR_IN
 Text Label 6000 5750 3    60   ~ 0
 TPWR_CTRL
@@ -1449,9 +1449,9 @@ Wire Wire Line
 	1100 3300 1300 3300
 Text Label 1100 3300 2    60   ~ 0
 GND
-Text Label 5800 5750 3    60   ~ 0
+Text Label 5900 5750 3    60   ~ 0
 LED1
-Text Label 5700 5750 3    60   ~ 0
+Text Label 5800 5750 3    60   ~ 0
 LED2
 $Comp
 L R R15
@@ -1587,4 +1587,12 @@ Wire Wire Line
 	5700 5650 5700 5750
 Wire Wire Line
 	5600 5650 5600 5750
+Text Label -1350 4550 2    60   ~ 0
+x1
+Text Label -1350 4450 2    60   ~ 0
+x2
+Text Label -1350 4350 2    60   ~ 0
+x3
+Text Label -1350 4250 2    60   ~ 0
+x4
 $EndSCHEMATC
