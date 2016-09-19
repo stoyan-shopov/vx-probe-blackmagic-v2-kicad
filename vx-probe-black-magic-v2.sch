@@ -1550,33 +1550,20 @@ F 3 "" H 1500 3600 50  0000 C CNN
 	1    1500 3600
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_02X04 P13
-U 1 1 57E0650A
-P -1000 4400
-F 0 "P13" H -1000 4650 50  0000 C CNN
-F 1 "CONN_02X04" H -1000 4150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05" H -1000 3200 50  0001 C CNN
-F 3 "" H -1000 3200 50  0000 C CNN
-	1    -1000 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	-1250 4250 -1350 4250
+	-1550 5000 -1650 5000
 Wire Wire Line
-	-1250 4350 -1350 4350
+	-1550 5100 -1650 5100
 Wire Wire Line
-	-1250 4450 -1350 4450
+	-1550 5200 -1650 5200
 Wire Wire Line
-	-1250 4550 -1350 4550
+	-950 5000 -1050 5000
 Wire Wire Line
-	-650 4250 -750 4250
+	-950 5100 -1050 5100
 Wire Wire Line
-	-650 4350 -750 4350
+	-950 5200 -1050 5200
 Wire Wire Line
-	-650 4450 -750 4450
-Wire Wire Line
-	-650 4550 -750 4550
+	-950 5300 -1050 5300
 Wire Wire Line
 	6000 5650 6000 5750
 Wire Wire Line
@@ -1587,12 +1574,188 @@ Wire Wire Line
 	5700 5650 5700 5750
 Wire Wire Line
 	5600 5650 5600 5750
-Text Label -1400 4550 2    60   ~ 0
+Text Label -1650 5000 2    60   ~ 0
 x1
-Text Label -1400 4450 2    60   ~ 0
+Text Label -1650 4900 2    60   ~ 0
 x2
-Text Label -1400 4350 2    60   ~ 0
+Text Label -1650 5100 2    60   ~ 0
 x3
-Text Label -1400 4250 2    60   ~ 0
+Text Label -1650 5200 2    60   ~ 0
 x4
+$Comp
+L CONN_02X05 P13
+U 1 1 57E1845F
+P -1300 5100
+F 0 "P13" H -1300 5400 50  0000 C CNN
+F 1 "CONN_02X05" H -1300 4800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H -1300 3900 50  0001 C CNN
+F 3 "" H -1300 3900 50  0000 C CNN
+	1    -1300 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-1050 4900 -950 4900
+Wire Wire Line
+	-1550 4900 -1650 4900
+Wire Wire Line
+	-950 5300 -950 5350
+$Comp
+L GND #PWR028
+U 1 1 57E19091
+P -950 5350
+F 0 "#PWR028" H -950 5100 50  0001 C CNN
+F 1 "GND" H -950 5200 50  0000 C CNN
+F 2 "" H -950 5350 50  0000 C CNN
+F 3 "" H -950 5350 50  0000 C CNN
+	1    -950 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1550 5300 -1650 5300
+Text Label -1650 5300 2    60   ~ 0
+TPWR
+$Comp
+L R R17
+U 1 1 57E19E88
+P -300 4450
+F 0 "R17" V -220 4450 50  0000 C CNN
+F 1 "560R" V -300 4450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -370 4450 50  0001 C CNN
+F 3 "" H -300 4450 50  0000 C CNN
+	1    -300 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-150 4450 -100 4450
+$Comp
+L Led_Small D4
+U 1 1 57E1A048
+P 0 4450
+F 0 "D4" H -50 4575 50  0000 L CNN
+F 1 "Led_Small" H -175 4350 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 0   4450 50  0001 C CNN
+F 3 "" V 0   4450 50  0000 C CNN
+	1    0    4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	100  4450 150  4450
+Wire Wire Line
+	-450 4450 -500 4450
+Text Label -950 4900 0    60   ~ 0
+XT1
+Text Label -950 5000 0    60   ~ 0
+XT2
+Text Label -950 5200 0    60   ~ 0
+XT4
+Text Label -950 5100 0    60   ~ 0
+XT3
+$Comp
+L R R18
+U 1 1 57E1A780
+P -300 4650
+F 0 "R18" V -220 4650 50  0000 C CNN
+F 1 "560R" V -300 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -370 4650 50  0001 C CNN
+F 3 "" H -300 4650 50  0000 C CNN
+	1    -300 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-150 4650 -100 4650
+$Comp
+L Led_Small D5
+U 1 1 57E1A787
+P 0 4650
+F 0 "D5" H -50 4775 50  0000 L CNN
+F 1 "Led_Small" H -175 4550 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 0   4650 50  0001 C CNN
+F 3 "" V 0   4650 50  0000 C CNN
+	1    0    4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	100  4650 150  4650
+Wire Wire Line
+	-450 4650 -500 4650
+$Comp
+L R R19
+U 1 1 57E1A7F0
+P -300 4850
+F 0 "R19" V -220 4850 50  0000 C CNN
+F 1 "560R" V -300 4850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -370 4850 50  0001 C CNN
+F 3 "" H -300 4850 50  0000 C CNN
+	1    -300 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-150 4850 -100 4850
+$Comp
+L Led_Small D6
+U 1 1 57E1A7F7
+P 0 4850
+F 0 "D6" H -50 4975 50  0000 L CNN
+F 1 "Led_Small" H -175 4750 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 0   4850 50  0001 C CNN
+F 3 "" V 0   4850 50  0000 C CNN
+	1    0    4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	100  4850 150  4850
+Wire Wire Line
+	-450 4850 -500 4850
+$Comp
+L R R20
+U 1 1 57E1A7FF
+P -300 5050
+F 0 "R20" V -220 5050 50  0000 C CNN
+F 1 "560R" V -300 5050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V -370 5050 50  0001 C CNN
+F 3 "" H -300 5050 50  0000 C CNN
+	1    -300 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-150 5050 -100 5050
+$Comp
+L Led_Small D7
+U 1 1 57E1A806
+P 0 5050
+F 0 "D7" H -50 5175 50  0000 L CNN
+F 1 "Led_Small" H -175 4950 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 0   5050 50  0001 C CNN
+F 3 "" V 0   5050 50  0000 C CNN
+	1    0    5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	150  5050 100  5050
+Wire Wire Line
+	-450 5050 -500 5050
+Text Label -500 4450 2    60   ~ 0
+XT1
+Text Label -500 4650 2    60   ~ 0
+XT2
+Text Label -500 5050 2    60   ~ 0
+XT4
+Text Label -500 4850 2    60   ~ 0
+XT3
+Wire Wire Line
+	150  4300 150  5050
+Connection ~ 150  4850
+Connection ~ 150  4650
+Connection ~ 150  4450
+$Comp
+L +3V3 #PWR029
+U 1 1 57E1B212
+P 150 4300
+F 0 "#PWR029" H 150 4150 50  0001 C CNN
+F 1 "+3V3" H 150 4440 50  0000 C CNN
+F 2 "" H 150 4300 50  0000 C CNN
+F 3 "" H 150 4300 50  0000 C CNN
+	1    150  4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
