@@ -1006,9 +1006,9 @@ Text Label 5400 5900 3    60   ~ 0
 SWCLK/TCK
 Text Label 5100 5900 1    60   ~ 0
 SWO/TDO
-Text Label 5600 5750 1    60   ~ 0
-TDI
 Text Label 5500 5900 1    60   ~ 0
+TDI
+Text Label 5600 5750 3    60   ~ 0
 XRST
 Wire Wire Line
 	2500 4850 3400 4850
