@@ -1000,18 +1000,8 @@ Wire Wire Line
 	12650 5800 12650 5950
 Text Label 12150 5600 2    60   ~ 0
 TPWR_CTRL
-Wire Wire Line
-	5600 6150 5600 5650
 Text Label 3750 4450 2    60   ~ 0
 SWDIO/TMS
-Wire Wire Line
-	5700 6150 5700 5650
-Wire Wire Line
-	5800 5650 5800 6150
-Wire Wire Line
-	5900 6150 5900 5650
-Wire Wire Line
-	6000 6150 6000 5650
 Text Label 3750 4550 2    60   ~ 0
 SWCLK/TCK
 Text Label 5100 5900 1    60   ~ 0
@@ -1141,7 +1131,7 @@ Text Label 1100 3800 2    60   ~ 0
 x3
 Text Label 5500 5900 1    60   ~ 0
 x3
-Text Label 5600 6150 1    60   ~ 0
+Text Label 5600 5750 3    60   ~ 0
 x4
 Text Label 1100 3900 2    60   ~ 0
 x4
@@ -1209,9 +1199,9 @@ Text Label 13250 5900 0    60   ~ 0
 TPWR
 Text Label 12800 6300 0    60   ~ 0
 TPWR_IN
-Text Label 5700 6150 1    60   ~ 0
+Text Label 5900 5750 3    60   ~ 0
 TPWR_IN
-Text Label 5800 6150 1    60   ~ 0
+Text Label 6000 5750 3    60   ~ 0
 TPWR_CTRL
 Text Label 9100 2550 0    60   ~ 0
 TPWR
@@ -1222,7 +1212,7 @@ L R R10
 U 1 1 57DC3D9D
 P 7700 5850
 F 0 "R10" H 7850 5900 50  0000 C CNN
-F 1 "10k" V 7700 5850 50  0000 C CNN
+F 1 "4k7" V 7700 5850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 7630 5850 50  0001 C CNN
 F 3 "" H 7700 5850 50  0000 C CNN
 	1    7700 5850
@@ -1233,7 +1223,7 @@ L R R11
 U 1 1 57DC3E4A
 P 7700 6200
 F 0 "R11" H 7850 6250 50  0000 C CNN
-F 1 "4k7" V 7700 6200 50  0000 C CNN
+F 1 "10k" V 7700 6200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 7630 6200 50  0001 C CNN
 F 3 "" H 7700 6200 50  0000 C CNN
 	1    7700 6200
@@ -1262,11 +1252,11 @@ Wire Wire Line
 	7700 5600 7850 5600
 Text Label 7850 5600 0    60   ~ 0
 5V_USB
-Text Label 5900 6150 1    60   ~ 0
+Text Label 3750 3750 2    60   ~ 0
 VUSB
 Text Label 1100 3400 2    60   ~ 0
 TPWR
-Text Label 6000 6150 1    60   ~ 0
+Text Label 3750 3650 2    60   ~ 0
 BTN1
 $Comp
 L SW_PUSH SW1
@@ -1459,9 +1449,9 @@ Wire Wire Line
 	1100 3300 1300 3300
 Text Label 1100 3300 2    60   ~ 0
 GND
-Text Label 3750 3650 2    60   ~ 0
+Text Label 5800 5750 3    60   ~ 0
 LED1
-Text Label 3750 3750 2    60   ~ 0
+Text Label 5700 5750 3    60   ~ 0
 LED2
 $Comp
 L R R15
@@ -1560,4 +1550,41 @@ F 3 "" H 1500 3600 50  0000 C CNN
 	1    1500 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_02X04 P13
+U 1 1 57E0650A
+P -1000 4400
+F 0 "P13" H -1000 4650 50  0000 C CNN
+F 1 "CONN_02X04" H -1000 4150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" H -1000 3200 50  0001 C CNN
+F 3 "" H -1000 3200 50  0000 C CNN
+	1    -1000 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1250 4250 -1350 4250
+Wire Wire Line
+	-1250 4350 -1350 4350
+Wire Wire Line
+	-1250 4450 -1350 4450
+Wire Wire Line
+	-1250 4550 -1350 4550
+Wire Wire Line
+	-650 4250 -750 4250
+Wire Wire Line
+	-650 4350 -750 4350
+Wire Wire Line
+	-650 4450 -750 4450
+Wire Wire Line
+	-650 4550 -750 4550
+Wire Wire Line
+	6000 5650 6000 5750
+Wire Wire Line
+	5900 5650 5900 5750
+Wire Wire Line
+	5800 5650 5800 5750
+Wire Wire Line
+	5700 5650 5700 5750
+Wire Wire Line
+	5600 5650 5600 5750
 $EndSCHEMATC
