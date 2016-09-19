@@ -1109,7 +1109,7 @@ Wire Wire Line
 	1100 3600 1300 3600
 Wire Wire Line
 	1100 3500 1300 3500
-Text Label 1100 3800 2    60   ~ 0
+Text Label 1100 3700 2    60   ~ 0
 x1
 Text Label 3900 4350 2    60   ~ 0
 x1
@@ -1117,13 +1117,13 @@ Text Label 3900 4450 2    60   ~ 0
 x2
 Text Label 1100 3900 2    60   ~ 0
 x2
-Text Label 1100 3700 2    60   ~ 0
+Text Label 1100 3600 2    60   ~ 0
 x3
 Text Label 3900 4550 2    60   ~ 0
 x3
 Text Label 5200 5900 3    60   ~ 0
 x4
-Text Label 1100 3600 2    60   ~ 0
+Text Label 1100 3800 2    60   ~ 0
 x4
 $Comp
 L R R6
@@ -1564,13 +1564,13 @@ Wire Wire Line
 	5700 5650 5700 5750
 Wire Wire Line
 	5600 5650 5600 5750
-Text Label -1650 5000 2    60   ~ 0
+Text Label -1650 5100 2    60   ~ 0
 x1
 Text Label -1650 4900 2    60   ~ 0
 x2
-Text Label -1650 5100 2    60   ~ 0
-x3
 Text Label -1650 5200 2    60   ~ 0
+x3
+Text Label -1650 5000 2    60   ~ 0
 x4
 $Comp
 L CONN_02X05 P13
@@ -1634,11 +1634,11 @@ Wire Wire Line
 	-450 4450 -500 4450
 Text Label -950 4900 0    60   ~ 0
 XT1
-Text Label -950 5000 0    60   ~ 0
-XT2
-Text Label -950 5200 0    60   ~ 0
-XT4
 Text Label -950 5100 0    60   ~ 0
+XT2
+Text Label -950 5000 0    60   ~ 0
+XT4
+Text Label -950 5200 0    60   ~ 0
 XT3
 $Comp
 L R R18
