@@ -493,7 +493,7 @@ Text Label 7350 3650 0    60   ~ 0
 PROG_SWDIO
 Text Label 6200 2250 1    60   ~ 0
 PROG_SWCLK
-Text Label 9800 3900 0    60   ~ 0
+Text Label 9800 3800 0    60   ~ 0
 GND
 Text Label 9800 4000 0    60   ~ 0
 PROG_SWCLK
@@ -803,7 +803,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 2350 6200 2150
 Wire Wire Line
-	9800 3900 10350 3900
+	9800 3800 10350 3800
 Wire Wire Line
 	9800 4000 10350 4000
 Wire Wire Line
@@ -1024,17 +1024,6 @@ Wire Wire Line
 	7300 4150 7700 4150
 Text Label 7350 4150 0    60   ~ 0
 USB_CONNECT
-$Comp
-L CONN_01X04 P5
-U 1 1 57DA0126
-P 10550 4050
-F 0 "P5" H 10550 4300 50  0000 C CNN
-F 1 "CONN_01X04" V 10650 4050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 10550 4050 50  0001 C CNN
-F 3 "" H 10550 4050 50  0000 C CNN
-	1    10550 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10050 2750 10500 2750
 Wire Wire Line
@@ -1797,4 +1786,19 @@ F 3 "" H 3800 2600 50  0000 C CNN
 	1    3800 2600
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_01X05 P5
+U 1 1 57E093EF
+P 10550 4000
+F 0 "P5" H 10550 4300 50  0000 C CNN
+F 1 "CONN_01X05" V 10650 4000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 10550 4000 50  0001 C CNN
+F 3 "" H 10550 4000 50  0000 C CNN
+	1    10550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 3900 9800 3900
+Text Label 9800 3900 0    60   ~ 0
++3V3
 $EndSCHEMATC
