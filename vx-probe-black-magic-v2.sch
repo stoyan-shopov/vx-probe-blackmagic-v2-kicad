@@ -1779,4 +1779,7 @@ $EndComp
 Wire Wire Line
 	12950 5350 12650 5350
 Connection ~ 12650 5350
+Wire Wire Line
+	5650 7000 6050 7000
+Connection ~ 6050 7000
 $EndSCHEMATC
