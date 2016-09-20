@@ -8,7 +8,7 @@
     (drawings 17)
     (tracks 822)
     (zones 0)
-    (modules 62)
+    (modules 66)
     (nets 64)
   )
 
@@ -59,8 +59,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
+    (pad_size 5 5)
+    (pad_drill 3.2)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
@@ -235,6 +235,58 @@
     (uvia_dia 0.3)
     (uvia_drill 0.1)
     (add_net /TPWR)
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E18EF6) (tstamp 57E18F2F)
+    (at 160.02 99.06)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.2) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E18EF6) (tstamp 57E18F26)
+    (at 160.02 53.34)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.2) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E18EF6) (tstamp 57E18F10)
+    (at 83.82 99.06)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.2) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E18EF6) (tstamp 57E18EC6)
+    (at 83.82 53.34)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 3.2) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm (layer F.Cu) (tedit 54130A77) (tstamp 57E1240C)
