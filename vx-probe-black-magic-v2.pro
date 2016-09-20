@@ -1,4 +1,4 @@
-update=13-Sep-16 19:21:19
+update=20-Sep-16 14:19:13
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=X:/vx-probe-black-magic-v2/stm32f103-qfp48
 LibName31=X:/vx-probe-black-magic-v2/AT45DB321D-SU
+LibName32=X:/vx-probe-black-magic-v2/w25q16
