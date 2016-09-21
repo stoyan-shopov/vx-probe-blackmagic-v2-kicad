@@ -3,12 +3,12 @@
   (general
     (links 168)
     (no_connects 0)
-    (area 39.5764 15.81 276.89 140.1286)
+    (area 39.5764 15.81 276.89 144.5736)
     (thickness 1.6)
     (drawings 15)
-    (tracks 898)
+    (tracks 954)
     (zones 0)
-    (modules 251)
+    (modules 308)
     (nets 64)
   )
 
@@ -237,8 +237,1236 @@
     (add_net /TPWR)
   )
 
+  (module Resistors_SMD:R_1206_HandSoldering (layer B.Cu) (tedit 57E29010) (tstamp 57E2BF98)
+    (at 154.305 75.565 270)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 2.3 270) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.3 270) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end -3.3 -1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 3.3 1.2) (end 3.3 -1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 1 -1.075) (end -1 -1.075) (layer B.SilkS) (width 0.15))
+    (fp_line (start -1 1.075) (end 1 1.075) (layer B.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 270) (size 2.5 1.7) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 1.8 0 270) (size 2.5 1.7) (layers B.Cu B.Paste B.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer B.Cu) (tedit 57E29010) (tstamp 57E2BF8D)
+    (at 156.845 75.565 270)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 2.3 270) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.3 270) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end -3.3 -1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 3.3 1.2) (end 3.3 -1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 1 -1.075) (end -1 -1.075) (layer B.SilkS) (width 0.15))
+    (fp_line (start -1 1.075) (end 1 1.075) (layer B.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 270) (size 2.5 1.7) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 1.8 0 270) (size 2.5 1.7) (layers B.Cu B.Paste B.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer B.Cu) (tedit 57E29010) (tstamp 57E2BF82)
+    (at 161.925 75.565 270)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 2.3 270) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.3 270) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end -3.3 -1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 3.3 1.2) (end 3.3 -1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 1 -1.075) (end -1 -1.075) (layer B.SilkS) (width 0.15))
+    (fp_line (start -1 1.075) (end 1 1.075) (layer B.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 270) (size 2.5 1.7) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 1.8 0 270) (size 2.5 1.7) (layers B.Cu B.Paste B.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer B.Cu) (tedit 57E29010) (tstamp 57E2BF77)
+    (at 159.385 75.565 270)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 2.3 270) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.3 270) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end -3.3 -1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 3.3 1.2) (end 3.3 -1.2) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 1 -1.075) (end -1 -1.075) (layer B.SilkS) (width 0.15))
+    (fp_line (start -1 1.075) (end 1 1.075) (layer B.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 270) (size 2.5 1.7) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at 1.8 0 270) (size 2.5 1.7) (layers B.Cu B.Paste B.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E29010) (tstamp 57E2BF02)
+    (at 154.305 75.565 90)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.3 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.3 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end -3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.3 -1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1 1.075) (end -1 1.075) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -1.075) (end 1 -1.075) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E29010) (tstamp 57E2BEF7)
+    (at 156.845 75.565 90)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.3 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.3 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end -3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.3 -1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1 1.075) (end -1 1.075) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -1.075) (end 1 -1.075) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E29010) (tstamp 57E2BEEC)
+    (at 161.925 75.565 90)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.3 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.3 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end -3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.3 -1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1 1.075) (end -1 1.075) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -1.075) (end 1 -1.075) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E29010) (tstamp 57E2BEE1)
+    (at 159.385 75.565 90)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.3 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.3 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end -3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.3 -1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1 1.075) (end -1 1.075) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -1.075) (end 1 -1.075) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E29010) (tstamp 57E2BED6)
+    (at 53.34 95.885 90)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.3 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.3 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end -3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.3 -1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1 1.075) (end -1 1.075) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -1.075) (end 1 -1.075) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E29010) (tstamp 57E2BECB)
+    (at 55.88 95.885 90)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.3 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.3 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end -3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.3 -1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1 1.075) (end -1 1.075) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -1.075) (end 1 -1.075) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E29010) (tstamp 57E2BEC0)
+    (at 50.8 95.885 90)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.3 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.3 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end -3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.3 -1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1 1.075) (end -1 1.075) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -1.075) (end 1 -1.075) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E29010) (tstamp 57E2BEB5)
+    (at 48.26 95.885 90)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.3 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.3 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end -3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.3 -1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1 1.075) (end -1 1.075) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -1.075) (end 1 -1.075) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E29010) (tstamp 57E2BD3A)
+    (at 57.15 71.755 90)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.3 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.3 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end -3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.3 -1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1 1.075) (end -1 1.075) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -1.075) (end 1 -1.075) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 1.8 0 90) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E2334E) (tstamp 57E2BD2F)
+    (at 62.865 85.09 90)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.3 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.3 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end -3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.3 -1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1 1.075) (end -1 1.075) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -1.075) (end 1 -1.075) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -2 0 90) (size 2 1.7) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 2 0 90) (size 2 1.7) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2BCD4)
+    (at 44.45 85.725 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2BCD0)
+    (at 52.07 85.725 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 57E28D46) (tstamp 57E28D72)
+    (at 48.26 85.725)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.4 1) (end 2.4 1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.4 -1) (end -2.4 1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.4 -1) (end 2.4 1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 0.6 0.875) (end -0.6 0.875) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.6 -0.875) (end 0.6 -0.875) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 57E28D46) (tstamp 57E28D67)
+    (at 50.8 71.755 90)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.4 1) (end 2.4 1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.4 -1) (end -2.4 1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.4 -1) (end 2.4 1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 0.6 0.875) (end -0.6 0.875) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.6 -0.875) (end 0.6 -0.875) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.35 0 90) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 1.35 0 90) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E2334E) (tstamp 57E2BC84)
+    (at 46.99 71.755 90)
+    (descr "Resistor SMD 1206, hand soldering")
+    (tags "resistor 1206")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.3 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.3 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -3.3 -1.2) (end 3.3 -1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3 -1.2) (end -3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.3 -1.2) (end 3.3 1.2) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1 1.075) (end -1 1.075) (layer F.SilkS) (width 0.15))
+    (fp_line (start -1 -1.075) (end 1 -1.075) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -2 0 90) (size 2 1.7) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 2 0 90) (size 2 1.7) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2BC80)
+    (at 46.99 67.31 270)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 270) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 270) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 smd rect (at 0 0 270) (size 1.7272 1.7272) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2BC7C)
+    (at 46.99 76.2 270)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 270) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 270) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 smd rect (at 0 0 270) (size 1.7272 1.7272) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2BC78)
+    (at 50.165 62.23 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2BC74)
+    (at 59.055 62.23 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers F.Cu F.Paste F.Mask))
+  )
+
+  (module Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm (layer B.Cu) (tedit 57E23768) (tstamp 57E2B987)
+    (at 158.115 90.805 270)
+    (descr "8-Lead Plastic Small Outline (SM) - Medium, 5.28 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
+    (tags "SOIC 1.27")
+    (attr smd)
+    (fp_text reference "" (at 0 3.68 270) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -3.68 270) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_circle (center -2 2) (end -2.25 2) (layer B.Fab) (width 0.15))
+    (fp_line (start -2.65 -2.65) (end -2.65 2.65) (layer B.Fab) (width 0.15))
+    (fp_line (start 2.65 -2.65) (end -2.65 -2.65) (layer B.Fab) (width 0.15))
+    (fp_line (start 2.65 2.65) (end 2.65 -2.65) (layer B.Fab) (width 0.15))
+    (fp_line (start -2.65 2.65) (end 2.65 2.65) (layer B.Fab) (width 0.15))
+    (fp_line (start -4.75 2.95) (end -4.75 -2.95) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 4.75 2.95) (end 4.75 -2.95) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -4.75 2.95) (end 4.75 2.95) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -4.75 -2.95) (end 4.75 -2.95) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -2.75 2.755) (end -2.75 2.55) (layer B.SilkS) (width 0.15))
+    (fp_line (start 2.75 2.755) (end 2.75 2.455) (layer B.SilkS) (width 0.15))
+    (fp_line (start 2.75 -2.755) (end 2.75 -2.455) (layer B.SilkS) (width 0.15))
+    (fp_line (start -2.75 -2.755) (end -2.75 -2.455) (layer B.SilkS) (width 0.15))
+    (fp_line (start -2.75 2.755) (end 2.75 2.755) (layer B.SilkS) (width 0.15))
+    (fp_line (start -2.75 -2.755) (end 2.75 -2.755) (layer B.SilkS) (width 0.15))
+    (fp_line (start -2.75 2.55) (end -4.5 2.55) (layer B.SilkS) (width 0.15))
+    (pad 1 smd rect (at -2.9 1.905 270) (size 4 0.65) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at -2.9 0.635 270) (size 4 0.65) (layers B.Cu B.Paste B.Mask))
+    (pad 3 smd rect (at -2.9 -0.635 270) (size 4 0.65) (layers B.Cu B.Paste B.Mask))
+    (pad 4 smd rect (at -2.9 -1.905 270) (size 4 0.65) (layers B.Cu B.Paste B.Mask))
+    (pad 5 smd rect (at 2.9 -1.905 270) (size 4 0.65) (layers B.Cu B.Paste B.Mask))
+    (pad 6 smd rect (at 2.9 -0.635 270) (size 4 0.65) (layers B.Cu B.Paste B.Mask))
+    (pad 7 smd rect (at 2.9 0.635 270) (size 4 0.65) (layers B.Cu B.Paste B.Mask))
+    (pad 8 smd rect (at 2.9 1.905 270) (size 4 0.65) (layers B.Cu B.Paste B.Mask))
+    (model Housings_SOIC.3dshapes/SOIJ-8_5.3x5.3mm_Pitch1.27mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B983)
+    (at 159.385 97.155 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B97F)
+    (at 161.925 97.155 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B97B)
+    (at 156.845 97.155 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B977)
+    (at 154.305 97.155 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B973)
+    (at 159.385 84.455 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B96F)
+    (at 161.925 84.455 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B96B)
+    (at 156.845 84.455 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B967)
+    (at 154.305 84.455 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B8F2)
+    (at 154.305 66.675 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B8EE)
+    (at 156.845 66.675 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B8EA)
+    (at 161.925 66.675 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B8E6)
+    (at 159.385 66.675 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B8E2)
+    (at 154.305 56.515 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B8DE)
+    (at 156.845 56.515 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B8DA)
+    (at 161.925 56.515 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Connect:1pin (layer B.Cu) (tedit 57E27716) (tstamp 57E2B8D6)
+    (at 159.385 56.515 180)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 3.048 180) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.794 180) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (pad 1 smd rect (at 0 0 180) (size 1.7272 1.7272) (layers B.Cu B.Paste B.Mask))
+  )
+
+  (module Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm (layer B.Cu) (tedit 57E243E5) (tstamp 57E2B8BB)
+    (at 158.115 61.595 270)
+    (descr "8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
+    (tags "SSOP 0.65")
+    (attr smd)
+    (fp_text reference "" (at 0 2.55 270) (layer B.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value "" (at 0 -2.55 270) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_circle (center -1.75 1) (end -2 1) (layer B.Fab) (width 0.15))
+    (fp_line (start -2.2 -1.5) (end -2.2 1.5) (layer B.Fab) (width 0.15))
+    (fp_line (start 2.2 -1.5) (end -2.2 -1.5) (layer B.Fab) (width 0.15))
+    (fp_line (start 2.2 1.5) (end 2.2 -1.5) (layer B.Fab) (width 0.15))
+    (fp_line (start -2.2 1.5) (end 2.2 1.5) (layer B.Fab) (width 0.15))
+    (fp_line (start -3.95 1.8) (end -3.95 -1.8) (layer B.CrtYd) (width 0.05))
+    (fp_line (start 3.95 1.8) (end 3.95 -1.8) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -3.95 1.8) (end 3.95 1.8) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -3.95 -1.8) (end 3.95 -1.8) (layer B.CrtYd) (width 0.05))
+    (fp_line (start -2.325 1.625) (end -2.325 1.525) (layer B.SilkS) (width 0.15))
+    (fp_line (start 2.325 1.625) (end 2.325 1.425) (layer B.SilkS) (width 0.15))
+    (fp_line (start 2.325 -1.625) (end 2.325 -1.425) (layer B.SilkS) (width 0.15))
+    (fp_line (start -2.325 -1.625) (end -2.325 -1.425) (layer B.SilkS) (width 0.15))
+    (fp_line (start -2.325 1.625) (end 2.325 1.625) (layer B.SilkS) (width 0.15))
+    (fp_line (start -2.325 -1.625) (end 2.325 -1.625) (layer B.SilkS) (width 0.15))
+    (fp_line (start -2.325 1.525) (end -3.675 1.525) (layer B.SilkS) (width 0.15))
+    (pad 1 smd rect (at -2.5 0.975 270) (size 2.5 0.45) (layers B.Cu B.Paste B.Mask))
+    (pad 2 smd rect (at -2.5 0.325 270) (size 2.5 0.45) (layers B.Cu B.Paste B.Mask))
+    (pad 3 smd rect (at -2.5 -0.325 270) (size 2.5 0.45) (layers B.Cu B.Paste B.Mask))
+    (pad 4 smd rect (at -2.5 -0.975 270) (size 2.5 0.45) (layers B.Cu B.Paste B.Mask))
+    (pad 5 smd rect (at 2.5 -0.975 270) (size 2.5 0.45) (layers B.Cu B.Paste B.Mask))
+    (pad 6 smd rect (at 2.5 -0.325 270) (size 2.5 0.45) (layers B.Cu B.Paste B.Mask))
+    (pad 7 smd rect (at 2.5 0.325 270) (size 2.5 0.45) (layers B.Cu B.Paste B.Mask))
+    (pad 8 smd rect (at 2.5 0.975 270) (size 2.5 0.45) (layers B.Cu B.Paste B.Mask))
+    (model Housings_SSOP.3dshapes/TSSOP-8_4.4x3mm_Pitch0.65mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B71E)
+    (at 114.935 141.605 270)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 270) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 270) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B71A)
+    (at 117.475 141.605 270)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 270) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 270) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B716)
+    (at 120.015 141.605 270)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 270) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 270) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B712)
+    (at 112.395 141.605 270)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 270) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 270) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B70E)
+    (at 116.205 143.51 270)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 270) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 270) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B70A)
+    (at 118.745 143.51 270)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 270) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 270) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B706)
+    (at 121.285 143.51 270)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 270) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 270) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B702)
+    (at 113.665 143.51 270)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 270) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 270) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 270) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6FE)
+    (at 135.255 134.62 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6FA)
+    (at 127.635 134.62 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6F6)
+    (at 130.175 134.62 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6F2)
+    (at 132.715 134.62 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6EE)
+    (at 133.985 136.525 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6EA)
+    (at 126.365 136.525 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6E6)
+    (at 128.905 136.525 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6E2)
+    (at 131.445 136.525 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6DE)
+    (at 160.655 71.12 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6DA)
+    (at 153.035 71.12 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6D6)
+    (at 155.575 71.12 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6D2)
+    (at 158.115 71.12 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6CE)
+    (at 160.655 80.01 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6CA)
+    (at 153.035 80.01 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6C6)
+    (at 155.575 80.01 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6C2)
+    (at 158.115 80.01 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6BE)
+    (at 160.655 52.07 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6BA)
+    (at 153.035 52.07 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6B6)
+    (at 155.575 52.07 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6B2)
+    (at 158.115 52.07 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6AE)
+    (at 160.655 101.6 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6AA)
+    (at 153.035 101.6 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6A6)
+    (at 155.575 101.6 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2B6A2)
+    (at 158.115 101.6 90)
+    (descr "module 1 pin (ou trou mecanique de percage)")
+    (tags DEV)
+    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+  )
+
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B37B)
-    (at 154.305 92.075 180)
+    (at 154.305 97.155 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -251,7 +1479,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B377)
-    (at 156.845 92.075 180)
+    (at 156.845 97.155 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -264,7 +1492,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B373)
-    (at 161.925 92.075 180)
+    (at 161.925 97.155 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -277,7 +1505,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B36F)
-    (at 159.385 92.075 180)
+    (at 159.385 97.155 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -290,7 +1518,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B35B)
-    (at 154.305 79.375 180)
+    (at 154.305 84.455 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -303,7 +1531,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B357)
-    (at 156.845 79.375 180)
+    (at 156.845 84.455 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -316,7 +1544,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B353)
-    (at 161.925 79.375 180)
+    (at 161.925 84.455 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -329,7 +1557,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B34F)
-    (at 159.385 79.375 180)
+    (at 159.385 84.455 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -342,7 +1570,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B018)
-    (at 154.305 61.595 180)
+    (at 154.305 56.515 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -355,7 +1583,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B014)
-    (at 156.845 61.595 180)
+    (at 156.845 56.515 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -368,7 +1596,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B010)
-    (at 161.925 61.595 180)
+    (at 161.925 56.515 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -381,7 +1609,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B00C)
-    (at 159.385 61.595 180)
+    (at 159.385 56.515 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -394,7 +1622,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B008)
-    (at 154.305 71.755 180)
+    (at 154.305 66.675 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -407,7 +1635,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B004)
-    (at 156.845 71.755 180)
+    (at 156.845 66.675 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -420,7 +1648,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2B000)
-    (at 161.925 71.755 180)
+    (at 161.925 66.675 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -433,7 +1661,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E27716) (tstamp 57E2AFFC)
-    (at 159.385 71.755 180)
+    (at 159.385 66.675 180)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
@@ -446,7 +1674,7 @@
   )
 
   (module Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm (layer F.Cu) (tedit 57E243E5) (tstamp 57E23E02)
-    (at 158.115 66.675 90)
+    (at 158.115 61.595 90)
     (descr "8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (attr smd)
@@ -1189,7 +2417,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2ABB6)
-    (at 161.925 94.615 90)
+    (at 161.925 99.695 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1202,7 +2430,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2ABB2)
-    (at 154.305 94.615 90)
+    (at 154.305 99.695 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1215,7 +2443,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2ABAE)
-    (at 156.845 94.615 90)
+    (at 156.845 99.695 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1228,7 +2456,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2ABAA)
-    (at 159.385 94.615 90)
+    (at 159.385 99.695 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1238,188 +2466,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2ABA1)
-    (at 162.56 84.455 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB9D)
-    (at 162.56 86.995 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB99)
-    (at 162.56 89.535 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB95)
-    (at 162.56 81.915 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB91)
-    (at 162.56 64.135 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB8D)
-    (at 162.56 66.675 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB89)
-    (at 162.56 69.215 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB85)
-    (at 153.035 86.995 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB81)
-    (at 153.035 89.535 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB7D)
-    (at 153.035 81.915 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB79)
-    (at 153.035 84.455 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB75)
-    (at 153.67 66.675 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB71)
-    (at 153.67 69.215 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB6D)
-    (at 153.67 64.135 180)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 180) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 180) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2AB44)
@@ -1644,7 +2690,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E2334E) (tstamp 57E260D6)
-    (at 121.285 22.86)
+    (at 54.61 62.23)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (attr smd)
@@ -1683,7 +2729,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2596B)
-    (at 159.385 59.055 90)
+    (at 159.385 53.975 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1696,7 +2742,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E25967)
-    (at 156.845 59.055 90)
+    (at 156.845 53.975 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1709,7 +2755,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E25963)
-    (at 154.305 59.055 90)
+    (at 154.305 53.975 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1722,7 +2768,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2595F)
-    (at 161.925 59.055 90)
+    (at 161.925 53.975 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1735,7 +2781,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2594B)
-    (at 159.385 74.295 90)
+    (at 159.385 69.215 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1748,7 +2794,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E25947)
-    (at 156.845 74.295 90)
+    (at 156.845 69.215 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1761,7 +2807,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E25943)
-    (at 154.305 74.295 90)
+    (at 154.305 69.215 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1774,7 +2820,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2593F)
-    (at 161.925 74.295 90)
+    (at 161.925 69.215 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1787,7 +2833,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E258D8)
-    (at 159.385 76.835 90)
+    (at 159.385 81.915 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1800,7 +2846,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E258D4)
-    (at 156.845 76.835 90)
+    (at 156.845 81.915 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1813,7 +2859,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E258D0)
-    (at 154.305 76.835 90)
+    (at 154.305 81.915 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -1826,7 +2872,7 @@
   )
 
   (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E258CC)
-    (at 161.925 76.835 90)
+    (at 161.925 81.915 90)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
@@ -2020,60 +3066,8 @@
       (net 28 /XRST))
   )
 
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2453F)
-    (at 227.965 116.205 90)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E2453B)
-    (at 225.425 116.205 90)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E24537)
-    (at 222.885 116.205 90)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module Connect:1pin (layer F.Cu) (tedit 57E19651) (tstamp 57E24533)
-    (at 230.505 116.205 90)
-    (descr "module 1 pin (ou trou mecanique de percage)")
-    (tags DEV)
-    (fp_text reference "" (at 0 -3.048 90) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "" (at 0 2.794 90) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad 1 thru_hole circle (at 0 0 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
-  )
-
   (module Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm (layer F.Cu) (tedit 57E23768) (tstamp 57E234AE)
-    (at 158.115 85.725 90)
+    (at 158.115 90.805 90)
     (descr "8-Lead Plastic Small Outline (SM) - Medium, 5.28 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (attr smd)
@@ -3014,7 +4008,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 57E11195) (tstamp 57DBB495)
+  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 57E28156) (tstamp 57DBB495)
     (at 89.535 61.087 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -3023,7 +4017,7 @@
     (fp_text reference R1 (at -104.394 -52.578 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4k7 (at -72.644 7.874 180) (layer F.Fab)
+    (fp_text value 4k7 (at -83.185 8.382 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 -1) (end 1.6 -1) (layer F.CrtYd) (width 0.05))
@@ -5362,6 +6356,58 @@
     )
   )
 
+  (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 57E28D46) (tstamp 57E2BCC9)
+    (at 119.38 29.845)
+    (descr "Resistor SMD 0805, hand soldering")
+    (tags "resistor 0805")
+    (attr smd)
+    (fp_text reference "" (at 0 -2.1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 2.1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -2.4 -1) (end 2.4 -1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.4 1) (end 2.4 1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.4 -1) (end -2.4 1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.4 -1) (end 2.4 1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 0.6 0.875) (end -0.6 0.875) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.6 -0.875) (end 0.6 -0.875) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 1.35 0) (size 1.5 1.3) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_0805_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 57E2BCE5)
+    (at 37.465 71.755 90)
+    (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
+    (tags "resistor 0805")
+    (attr smd)
+    (fp_text reference REF** (at 0 -2.1 90) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value R_0805 (at 0 2.1 90) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -1.6 -1) (end 1.6 -1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.6 1) (end 1.6 1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.6 -1) (end -1.6 1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.6 -1) (end 1.6 1) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 0.6 0.875) (end -0.6 0.875) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.6 -0.875) (end 0.6 -0.875) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask))
+    (model Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (gr_line (start 80.645 103.505) (end 156.21 103.505) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 164.465 102.235) (end 164.465 94.615) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 156.21 103.505) (end 163.195 103.505) (angle 90) (layer Edge.Cuts) (width 0.15))
@@ -5400,22 +6446,78 @@
     (arrow2b (pts (xy 73.025 49.53) (xy 73.611421 50.656504)))
   )
 
-  (segment (start 159.09 69.175) (end 159.345 69.175) (width 0.25) (layer F.Cu) (net 0) (status 10))
-  (segment (start 159.345 69.175) (end 161.925 71.755) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B34C) (status 20))
-  (segment (start 158.44 69.175) (end 158.44 70.81) (width 0.25) (layer F.Cu) (net 0) (status 10))
-  (segment (start 158.44 70.81) (end 159.385 71.755) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B349) (status 20))
-  (segment (start 157.79 69.175) (end 157.79 70.81) (width 0.25) (layer F.Cu) (net 0) (status 10))
-  (segment (start 157.79 70.81) (end 156.845 71.755) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B346) (status 20))
-  (segment (start 157.14 69.175) (end 156.885 69.175) (width 0.25) (layer F.Cu) (net 0) (status 10))
-  (segment (start 156.885 69.175) (end 154.305 71.755) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B343) (status 20))
-  (segment (start 159.09 64.175) (end 159.345 64.175) (width 0.25) (layer F.Cu) (net 0) (status 10))
-  (segment (start 159.345 64.175) (end 161.925 61.595) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B33F) (status 20))
-  (segment (start 158.44 64.175) (end 158.44 62.54) (width 0.25) (layer F.Cu) (net 0) (status 10))
-  (segment (start 158.44 62.54) (end 159.385 61.595) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B33C) (status 20))
-  (segment (start 157.79 64.175) (end 157.79 62.54) (width 0.25) (layer F.Cu) (net 0) (status 10))
-  (segment (start 157.79 62.54) (end 156.845 61.595) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B33A) (status 20))
-  (segment (start 157.14 64.175) (end 156.885 64.175) (width 0.25) (layer F.Cu) (net 0) (status 10))
-  (segment (start 156.885 64.175) (end 154.305 61.595) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B338) (status 20))
+  (segment (start 155.85 93.705) (end 154.305 95.25) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9B5))
+  (segment (start 154.305 95.25) (end 154.305 97.155) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9B4))
+  (segment (start 156.21 93.705) (end 155.85 93.705) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9B3))
+  (segment (start 160.38 93.705) (end 161.925 95.25) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9B2))
+  (segment (start 161.925 95.25) (end 161.925 97.155) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9B1))
+  (segment (start 160.02 93.705) (end 160.38 93.705) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9B0))
+  (segment (start 157.48 96.52) (end 156.845 97.155) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9AF))
+  (segment (start 157.48 93.705) (end 157.48 96.52) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9AE))
+  (segment (start 158.75 96.52) (end 159.385 97.155) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9AD))
+  (segment (start 158.75 93.705) (end 158.75 96.52) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9AC))
+  (segment (start 157.48 85.09) (end 156.845 84.455) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9AB))
+  (segment (start 157.48 87.905) (end 157.48 85.09) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9AA))
+  (segment (start 158.75 85.09) (end 159.385 84.455) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9A9))
+  (segment (start 158.75 87.905) (end 158.75 85.09) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9A8))
+  (segment (start 155.85 87.905) (end 154.305 86.36) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9A7))
+  (segment (start 154.305 86.36) (end 154.305 84.455) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9A6))
+  (segment (start 156.21 87.905) (end 155.85 87.905) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9A5))
+  (segment (start 160.38 87.905) (end 161.925 86.36) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9A4))
+  (segment (start 161.925 86.36) (end 161.925 84.455) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9A3))
+  (segment (start 160.02 87.905) (end 160.38 87.905) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B9A2))
+  (segment (start 160.02 93.705) (end 160.38 93.705) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 161.925 95.25) (end 161.925 97.155) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B963))
+  (segment (start 160.38 93.705) (end 161.925 95.25) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B962))
+  (segment (start 156.21 93.705) (end 155.85 93.705) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 154.305 95.25) (end 154.305 97.155) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B95E))
+  (segment (start 155.85 93.705) (end 154.305 95.25) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B95D))
+  (segment (start 158.75 93.705) (end 158.75 96.52) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 158.75 96.52) (end 159.385 97.155) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B95A))
+  (segment (start 157.48 93.705) (end 157.48 96.52) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 157.48 96.52) (end 156.845 97.155) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B957))
+  (segment (start 158.75 87.905) (end 158.75 85.09) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 158.75 85.09) (end 159.385 84.455) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B954))
+  (segment (start 157.48 87.905) (end 157.48 85.09) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 157.48 85.09) (end 156.845 84.455) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B94E))
+  (segment (start 160.02 87.905) (end 160.38 87.905) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 161.925 86.36) (end 161.925 84.455) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B94A))
+  (segment (start 160.38 87.905) (end 161.925 86.36) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B949))
+  (segment (start 156.21 87.905) (end 155.85 87.905) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 154.305 86.36) (end 154.305 84.455) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B945))
+  (segment (start 155.85 87.905) (end 154.305 86.36) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B944))
+  (segment (start 159.09 59.095) (end 159.345 59.095) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B905) (status 10))
+  (segment (start 159.345 59.095) (end 161.925 56.515) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B904) (status 20))
+  (segment (start 158.44 59.095) (end 158.44 57.46) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B903) (status 10))
+  (segment (start 158.44 57.46) (end 159.385 56.515) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B902) (status 20))
+  (segment (start 157.79 59.095) (end 157.79 57.46) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B901) (status 10))
+  (segment (start 157.79 57.46) (end 156.845 56.515) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B900) (status 20))
+  (segment (start 157.14 59.095) (end 156.885 59.095) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B8FF) (status 10))
+  (segment (start 156.885 59.095) (end 154.305 56.515) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B8FE) (status 20))
+  (segment (start 159.09 64.095) (end 159.345 64.095) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B8FD) (status 10))
+  (segment (start 159.345 64.095) (end 161.925 66.675) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B8FC) (status 20))
+  (segment (start 158.44 64.095) (end 158.44 65.73) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B8FB) (status 10))
+  (segment (start 158.44 65.73) (end 159.385 66.675) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B8FA) (status 20))
+  (segment (start 157.79 64.095) (end 157.79 65.73) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B8F9) (status 10))
+  (segment (start 157.79 65.73) (end 156.845 66.675) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B8F8) (status 20))
+  (segment (start 157.14 64.095) (end 156.885 64.095) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B8F7) (status 10))
+  (segment (start 156.885 64.095) (end 154.305 66.675) (width 0.25) (layer B.Cu) (net 0) (tstamp 57E2B8F6) (status 20))
+  (segment (start 159.09 64.095) (end 159.345 64.095) (width 0.25) (layer F.Cu) (net 0) (status 10))
+  (segment (start 159.345 64.095) (end 161.925 66.675) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B34C) (status 20))
+  (segment (start 158.44 64.095) (end 158.44 65.73) (width 0.25) (layer F.Cu) (net 0) (status 10))
+  (segment (start 158.44 65.73) (end 159.385 66.675) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B349) (status 20))
+  (segment (start 157.79 64.095) (end 157.79 65.73) (width 0.25) (layer F.Cu) (net 0) (status 10))
+  (segment (start 157.79 65.73) (end 156.845 66.675) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B346) (status 20))
+  (segment (start 157.14 64.095) (end 156.885 64.095) (width 0.25) (layer F.Cu) (net 0) (status 10))
+  (segment (start 156.885 64.095) (end 154.305 66.675) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B343) (status 20))
+  (segment (start 159.09 59.095) (end 159.345 59.095) (width 0.25) (layer F.Cu) (net 0) (status 10))
+  (segment (start 159.345 59.095) (end 161.925 56.515) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B33F) (status 20))
+  (segment (start 158.44 59.095) (end 158.44 57.46) (width 0.25) (layer F.Cu) (net 0) (status 10))
+  (segment (start 158.44 57.46) (end 159.385 56.515) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B33C) (status 20))
+  (segment (start 157.79 59.095) (end 157.79 57.46) (width 0.25) (layer F.Cu) (net 0) (status 10))
+  (segment (start 157.79 57.46) (end 156.845 56.515) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B33A) (status 20))
+  (segment (start 157.14 59.095) (end 156.885 59.095) (width 0.25) (layer F.Cu) (net 0) (status 10))
+  (segment (start 156.885 59.095) (end 154.305 56.515) (width 0.25) (layer F.Cu) (net 0) (tstamp 57E2B338) (status 20))
   (segment (start 149.225 66.675) (end 149.225 69.215) (width 0.25) (layer F.Cu) (net 1) (status 30))
   (segment (start 149.225 64.135) (end 149.225 66.675) (width 0.25) (layer F.Cu) (net 1) (status 30))
   (segment (start 149.225 61.595) (end 149.225 64.135) (width 0.25) (layer F.Cu) (net 1) (status 30))
